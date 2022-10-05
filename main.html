@@ -1,0 +1,25 @@
+<!-- Sole Developer: Aiden J -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles.css">
+    <title>Basics Of Recycling</title>
+  </head>
+  <body id="body">
+    <div id="headStuff">
+      <h1><br><b>Sort The Item</b><br><br></h1>
+      <h2><b>Press The Button With The Can You Believe The Item Should Go In</b></h2><br>
+    </div>
+
+    <p id="questionDisplay"></p>
+    
+    <div id="inputs">
+      <button id="rb"><img src="recyclingBin.png" onclick = "submitAnswer(prompts[prompt].type, 'r')"></button>
+      <button id="cb"><img src="organicWasteBin.png" onclick = "submitAnswer(prompts[prompt].type, 'c')"></button>
+      <button id="lb"><img src="landfillCan.png" onclick = "submitAnswer(prompts[prompt].type, 'l')"></button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
