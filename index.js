@@ -58,7 +58,7 @@ function submitAnswer(answer, question){
   prompt++
   disp.innerHTML = prompts[prompt].name
   if(prompt == prompts.length-1){
-    disp.innerHTML = score + "/" + prompts.length-1
+    disp.innerHTML = score + "/" + prompt
   }
 }
 
